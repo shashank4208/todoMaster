@@ -1,0 +1,12 @@
+@import '../../assets/globalStyle.css';
+
+.AddSbt-btn{
+    height: 4vh;
+    width: 4vh;
+    background: var(--active-text);
+    border: 0px;
+    border-radius: 50%;
+    margin-left: 20px !important;
+    font-size: x-large;
+    font-weight: 700;
+}

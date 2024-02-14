@@ -1,0 +1,93 @@
+@import "../../assets/globalStyle.css";
+
+.profile-page {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: context-menu;
+  background: rgba(245, 245, 245, 1);
+}
+
+.profile-page .profile-container {
+  min-width: 26vw;
+  min-height: 35vh;
+  background: var(--bg-color);
+  box-shadow: 0px 0px 10px 2px !important;
+  display: flex;
+  flex-direction: column;
+  /* padding: 0px 20px; */
+  padding: 1.3% 0px;
+}
+
+.profile-container .details {
+  min-width: 10vw;
+  height: 4vh;
+  margin-bottom: 8%;
+  font-size:x-large;
+  font-weight: 600;
+  border: 0px;
+  padding: 5px;
+  margin-left: 35% !important;
+}
+
+.profile-container span{
+    min-width: 30vw;
+    height: 2px;
+    background: var(--text);
+    margin-bottom: 10px !important;
+}
+
+.profile-container .common-title {
+  min-width: 10vw;
+  height: 4vh;
+  display: flex;
+  margin-bottom: 8%;
+  font-size: large;
+  font-weight: 600;
+  padding: 5px;
+  margin: 0px 20px;
+}
+
+.common-title p:first-child {
+  min-width: 10vw;
+}
+
+.profile-container .common-style {
+  min-width: 15vw;
+  margin-left: 10px !important;
+  border: 0px;
+  font-size: medium;
+  font-weight: 600;
+  border-bottom: 1px solid var(--text);
+}
+
+.profile-container .back-btn {
+  width: 15vw;
+  padding: 10px;
+  margin-left: 25%;
+  margin-top: 5%;
+  border: 0px;
+  border-radius: 20px;
+  background: var(--active-text);
+  font-size: medium;
+  color: var(--bg-color);
+  cursor: pointer;
+}
+
+.profile-container .logout-btn{
+  width: 15vw;
+  padding: 10px;
+  margin-left: 25%;
+  margin-top: 5%;
+  border: 0px;
+  border-radius: 20px;
+  background: var(--green);
+  font-size: medium;
+  color: var(--bg-color);
+  cursor: pointer;
+}

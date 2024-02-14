@@ -1,0 +1,61 @@
+@import '../../assets/globalStyle.css';
+
+.task-card{
+    width: 25vw;
+    min-height: 6vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.task-card .sub-header{
+    display: flex;
+}
+
+.task-card .taskTitle{
+    width: 20vw;
+    margin-right: 15px !important;
+    margin-left: 20px !important;
+    font-size: medium;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.task-card .delete{
+    height: 30px;
+    width: 30px;
+    background-color: none;
+    border: 0px;
+    background: url('../../assets/images/delete.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.sub-task-details{
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-task-details label, li{
+    text-transform: capitalize;
+}
+
+.task-card .status-container{
+    display: flex;
+    margin-top: 15px;
+}
+
+.status-container p{
+    font-size: medium;
+    font-weight: 600;
+    margin-right: 15px !important;
+}
+
+.status-container .status:focus{
+    outline: none;
+    border: 1px solid var(--text);
+}

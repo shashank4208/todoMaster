@@ -1,0 +1,75 @@
+@import '../../assets/globalStyle.css';
+
+.loginPage{
+    display: flex;
+}
+
+.loginPage .left-container{
+    background:var(--blue-gradient);
+    height: 100vh;
+    width: 50vw;
+}
+
+.left-container .logo{
+    font-family: 'Protest Strike', sans-serif;
+    color: var(--bg-color);
+    font-size: 28px;
+    font-style: italic;
+    font-weight:600;
+    margin: 7vh 0px 0px 4.5vw !important;
+}
+
+.loginPage .right-container{
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-container .login-container{
+    width: 30vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:'Times New Roman', Times, serif ;
+    font-weight: bold;
+    font-size: 1.8rem;
+    /* background:var(--bg-color);
+    border-radius: 10px;
+    box-shadow: 0px 2px 18px rgba(0, 0, 0, 0.2); */
+}
+
+.login-container p:first-child{
+    margin-bottom: 20px !important;
+}
+
+.right-container .email, .pass, .login-btn{
+    width: 20vw;
+    height: 4.5vh;
+    padding: 0.8% 2%;
+    margin: 20px 0px;
+    border-radius: 10px;
+}
+
+.right-container .email, .pass{
+    font-weight: 600;
+    color: var(--text);
+    border: 3px solid var(--light-grey);
+}
+
+.right-container input:focus{
+    outline-style: none;
+    border: 3px solid  var(--light-blue)!important;
+}
+
+.right-container .login-btn{
+    width: 21.5vw;
+    color: var(--bg-color);
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    background: var(--active-text);
+    border: 0px !important;
+}

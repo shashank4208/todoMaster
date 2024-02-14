@@ -1,0 +1,27 @@
+:root{
+    --bg-color:rgba(255, 255, 255, 1);
+    --heading-color:rgba(30, 41, 59, 1);
+    --text: rgb(0, 0, 0);
+    --active-text: rgba(48, 107, 255, 1);
+    --grey:rgba(148, 163, 184, 1);
+    --blue-gradient:rgba(5, 10, 36, 1);
+    --light-grey:rgba(208, 213, 221, 1);
+    --light-blue:rgba(209, 233, 255, 1);
+    --green:rgba(120, 197, 82, 1);
+}
+
+/* font-family: 'Nunito', sans-serif;
+font-family: 'Protest Strike', sans-serif;
+font-family: 'Roboto Mono', monospace; */
+
+body{
+    margin: 0% !important;
+    padding: 0% !important;
+    box-sizing: border-box;
+    background: var(--bg-color);
+    font-family: 'Nunito', sans-serif;
+}
+
+p{
+    margin: 0% !important;
+}
